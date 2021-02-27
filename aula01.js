@@ -3,17 +3,7 @@
 - Compare escopos da var e deixe palavras-chave PASSO 2
 - Declare uma variável somente leitura com a palavra-chave const PASSO 3
 - Transformar um array declarado com const PASSO 4
-- Impedir mutação de objeto  PASSO 5
--
--
--
--
--
--
--
--
-*/
-
+- Impedir mutação de objeto  PASSO 5 */
 
 /* PASSO 1
 Um dos maiores problemas com a declaração de variáveis ​​com a varpalavra-chave é que você pode sobrescrever
@@ -42,7 +32,7 @@ catTalk();
 
 /* PASSO 2
 
-Quando você declara uma variável com a varpalavra-chave, ela é declarada globalmente ou localmente se
+Quando você declara uma variável com a var palavra-chave, ela é declarada globalmente ou localmente se
 declarada dentro de uma função.
 
 A let palavra-chave se comporta de maneira semelhante, mas com alguns recursos extras.
@@ -60,7 +50,7 @@ console.log(numArray);
 console.log(i);
 // returns 3
 
-//Com a var palavra - chave, ié declarado globalmente. Portanto, quando i++é executado, ele 
+//Com a var palavra - chave, ié declarado globalmente. Portanto, quando i++ é executado, ele 
 //atualiza a variável global. Este código é semelhante ao seguinte:
 
 var numArray = [];
@@ -93,6 +83,7 @@ foi atualizado e printNumTwo()retorna o global ie não o valor que i tinha quand
 loop for. A let palavra-chave não segue este comportamento:*/
 
 let printNumTwo;
+
 for (let i = 0; i < 3; i++) {
   if (i === 2) {
     printNumTwo = function() {
@@ -201,3 +192,5 @@ function freezeObj() {
     return MATH_CONSTANTS.PI;
     }
     const PI = freezeObj();
+
+// O VALOR ATRIBUIDO A PI NÃO VAI MUDAR  POIS OBJETO FOI CONGELADO.
