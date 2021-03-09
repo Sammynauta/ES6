@@ -3,8 +3,7 @@
  - Escreva funções de seta com parâmetros PASSO 2
  - Definir parâmetros padrão para suas funções PASSO 3
  - Use o parâmetro de descanso com parâmetros de função PASSO 4
- - Use o operador de propagação para avaliar matrizes no local 5
- */
+ - Use o operador de propagação para avaliar matrizes no local 5 */
 
  /* PASSO 1
 
