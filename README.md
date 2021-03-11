@@ -33,3 +33,20 @@ O ES6, lançado em 2015, adicionou muitos novos recursos poderosos à linguagem.
 - Escrever declarações literais concisas de objetos usando atalhos de propriedades de objetos PASSO 3
 - Escreva funções declarativas concisas com ES6 PASSO 4
 - Use a sintaxe de classe para definir uma função de construtor PASSO 5
+
+## AULA 05
+
+- Use getters e setters para controlar o acesso a um objeto PASSO 1
+- Crie um script de módulo PASSO 2
+- Use a exportação para compartilhar um bloco de código PASSO 3
+- Reutilizar código JavaScript usando importação PASSO 4
+- Use * para importar tudo de um arquivo PASSO 5
+
+## AULA 06
+
+- Criar um substituto de exportação com padrão de exportação PASSO 1
+- Importar uma exportação padrão PASSO 2
+- Crie uma promessa de JavaScript PASSO 3
+- Cumpra uma promessa com determinação e rejeição PASSO 4
+- Lidar com uma promessa cumprida com então PASSO 5
+- Lidar com uma promessa rejeitada com captura PASSO 6
